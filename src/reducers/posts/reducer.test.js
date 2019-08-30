@@ -1,6 +1,5 @@
 import { types } from "../../actions/types";
 import postReducer from "./reducer";
-import { shallow } from "enzyme";
 
 describe("Post Reducer", () => {
   it("Should return default state", () => {
